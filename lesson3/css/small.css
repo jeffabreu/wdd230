@@ -80,6 +80,7 @@ nav {
 }
 main {
     display: grid;
+    grid-template-columns: 1fr;
     grid-gap: 20px;
     text-align: center;
 
@@ -100,12 +101,13 @@ section p, img {
 .red {
     display: block;
     background-color: rgb(186, 11, 58);
-    color: rgb(225, 224, 136);
+    color: rgb(255, 246, 136);
     font-size: 20px;
+    width: 100%;
 }
 .yellow {
     display: block;
-    background-color: rgb(225, 224, 136);
+    background-color: rgb(255, 246, 136);
     color: rgb(186, 11, 58);
     font-size: 20px;
 }
