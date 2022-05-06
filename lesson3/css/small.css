@@ -78,3 +78,34 @@ nav {
     flex: 1 1 auto;
     list-style-type: none;
 }
+main {
+    display: grid;
+    grid-gap: 20px;
+    text-align: center;
+
+}
+section {
+    display: block;
+    justify-content: center;
+}
+section h2 {
+    display: block;
+    background-color: rgb(7, 106, 168);
+    border-radius: 20px;
+    color: white;
+}
+section p, img {
+    padding: 1rem;
+}
+.red {
+    display: block;
+    background-color: rgb(186, 11, 58);
+    color: rgb(225, 224, 136);
+    font-size: 20px;
+}
+.yellow {
+    display: block;
+    background-color: rgb(225, 224, 136);
+    color: rgb(186, 11, 58);
+    font-size: 20px;
+}
