@@ -27,7 +27,6 @@ header, footer{
 header {
     display: grid;
     grid-template-rows: 150px 1fr;
-    grid-column: 1fr;
 }
 footer {
     grid-template-columns: 200px 1fr;
