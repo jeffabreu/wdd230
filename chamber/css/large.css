@@ -1,0 +1,45 @@
+@media only screen and (min-width: 60em){    
+    nav ul li a {
+        padding : 1rem;
+        }
+        h1 {
+        font-size : 3rem;
+        }
+        h2 {
+        font-size : 2.5rem;
+        }
+        .main-grid {
+        grid-template-columns : repeat(4,1fr);
+        grid-template-areas : "event hero hero spot" "weather hero hero spot" "join news news spot";
+        }
+        #event {
+        grid-area : event;
+        }
+        #hero-image {
+        grid-area : hero;
+        }
+        #spotlight {
+        grid-area : spot;
+        }
+        #weather {
+        grid-area : weather;
+        }
+        #join {
+        grid-area : join;
+        }
+        #news-release {
+        grid-area : news;
+        }
+        section#spotlight {
+        display : block;
+        }
+        section#spotlight .spots {
+        height : 12rem;
+        }
+        section#spotlight .spot3 {
+        display : block;
+        }
+        .current-time{
+        width: 400px;
+        }
+    }
