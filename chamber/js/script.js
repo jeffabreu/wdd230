@@ -1,7 +1,20 @@
-const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.mainnav')
+function toggleMenu() {
+    document.getElementById("mainnav").classList.toggle("open");
+    document.getElementById("hamburger").classList.toggle("open");
+}
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+const x = document.getElementById("hamburger");
+x.onclick = toggleMenu;
 
-// To solve the mid resizing issue with responsive class on
-window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+
+// current date with format: Wednesday, 24 July 2020.
+
+const date = new Date();
+const currentTime = document.getElementById('currentTime')
+
+const fulldate = new Intl.DateTimeFormat('en-Us',{
+    dateStyle: "full"
+}).format(date);
+
+currentTime.innerHTML = fulldate;
+
