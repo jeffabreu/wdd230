@@ -1,4 +1,4 @@
-const input = document.querySelector('#favchap');
+const input = document.querySelector('#chapter');
 const button = document.querySelector('button');
 const list = document.querySelector('ul');
 
@@ -13,7 +13,7 @@ button.addEventListener('click', function() {
     listItem.appendChild(listBtn);
     listBtn.textContent = '❌';
     list.appendChild(listItem);
-
+    /*make a button to delete*/
     listBtn.addEventListener('click', function() {
     list.removeChild(listItem);
     });
