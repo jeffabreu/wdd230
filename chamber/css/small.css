@@ -122,6 +122,9 @@ main section.item {
     min-height : 10rem;
     border : rgb(186, 11, 58) solid 1px;
     }
+section p,h3,h4{
+    text-align: center;
+}
 section#spotlight .spots {
     display : block;
     padding : 0.6rem;

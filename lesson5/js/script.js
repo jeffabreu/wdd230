@@ -2,7 +2,8 @@ const input = document.querySelector('#chapter');
 const button = document.querySelector('button');
 const list = document.querySelector('ul');
 
-button.addEventListener('click', function() {
+button.addEventListener('click','keypress', function() {
+    
     const myItem = input.value;
     input.value = '';
     /*it will create a new list item when the user click on the button*/
