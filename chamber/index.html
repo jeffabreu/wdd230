@@ -13,6 +13,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Koulen&family=Libre+Bodoni:ital@1&family=Lobster&family=Nunito+Sans:wght@700&family=Pacifico&display=swap" rel="stylesheet">
     <script defer="" src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
 
     
 </head>
@@ -50,15 +51,17 @@
         <section class="item" id="weather">
           <h3>Weather</h3>
           <div id="centered">
-            <img src="images/weathericon.webp" alt="weather icon">
-            <h2><span id="temp">33</span> °F</h2>
-          </div>
-          <h2><span id="temp">33</span> °F</h2>
+            <img src="images/weathericon.png" alt="weather icon">
+            <p><span id="temperature">33</span>°F</p>
+            <p>Wind Speed: <span id="windSpeed">2.5</span>km/h</p>
+            <p>Wind Chill: <span id="windChill"></span></p>
         </section>
         <section class="item" id="join"><p>Discover how to join the Chamber of Commerce and how it will benefit your organization!</p></section>  
         <section class="item" id="hero-image">
-          <picture class="star-chamber-commerce">
-          <img src="images/default.jpg" alt="picture assignment" srcset="images/hero1.jpg 1x, images/hero2.jpg 2x, images/hero3.jpg 3x">
+          <picture>
+            <source media= "(max-width: 640px)" srcset="images/hero2.jpg">
+            <source media="(max-width: 1040px)" srcset="images/hero3.jpg">
+            <img src="images/hero1.jpg" alt="assignment picture">
           </picture>
           <div class="banner">
             <button class="chatbutton" onclick="window.location.href='#chat'"><span>Chat with us!</span></button>

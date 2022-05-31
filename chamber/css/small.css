@@ -170,3 +170,14 @@ div .chatbutton:hover {
 .date {
     text-align : center;
     }
+#weather{
+    align-items: center;
+    padding: 1rem;
+    
+}
+#weather img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
