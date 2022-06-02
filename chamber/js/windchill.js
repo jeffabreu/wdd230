@@ -1,11 +1,11 @@
-let temperature = document.querySelector("#temperature");
+let temperature = document.getElementById("temperature");
 
-let windSpeed = document.getElementById("windSpeed");
-let windChill = document.getElementById("windChill");
+let windSpeed = document.getElementById("windspeed");
+let windChill = document.getElementById("windchill");
 
 if (temperature <= 50 || windSpeed > 3) {
 
-    const windChillfunc = 35.74 + (0.6215 * temperature) - (35.75 * windSpeed**0.16) + (0.4275 * temperature * windSpeed**0.16);
+    let windChillfunc = 35.74 + (0.6215 * temperature) - (35.75 * windSpeed**0.16) + (0.4275 * temperature * windSpeed**0.16);
     windChill = windChillfunc;
 
 } else {
