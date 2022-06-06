@@ -13,6 +13,8 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Koulen&family=Libre+Bodoni:ital@1&family=Lobster&family=Nunito+Sans:wght@700&family=Pacifico&display=swap" rel="stylesheet">
     <script defer="" src="js/script.js"></script>
+    <script defer="" src="js/localstorage.js"></script>
+    
    
 
     
@@ -41,46 +43,45 @@
       <span class="date"></span>
       </div>
     </header>
-    <main> 
-      
-      <div class="main-grid">
-        <section class="item" id="event">
-          <h3>Ribbon Cutting</h3>
-          <h4>💎 The Diamond Shack</h4>
-          <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 p.m.</p>
-        </section>
-        <section class="item" id="weather">
-          <h3>Weather</h3>
-          <div id="weatherbox">
-            <img src="images/weathericon.png" alt="weather icon">
-            <p><span id="temperature">33</span>°F</p>
-            <p>Wind Speed: <span id="windspeed">2.5</span>km/h</p>
-            <p>Wind Chill: <span id="windchill"></span></p>
-        </section>
-        <section class="item" id="join"><p>Discover how to join the Chamber of Commerce and how it will benefit your organization!</p></section>  
-        <section class="item" id="hero-image">
-          <picture>
-            <source media= "(max-width: 640px)" srcset="images/hero2.jpg">
-            <source media="(max-width: 1040px)" srcset="images/hero3.jpg">
-            <img src="images/hero1.jpg" alt="assignment picture">
-          </picture>
-          <div class="banner">
-            <button class="chatbutton" onclick="window.location.href='#chat'"><span>Chat with us!</span></button>
+    <main>
+        <div class="localstorage">
+            <p>
+              <span class="infoname">Number of visits:</span>
+              <span class="visits"></span>
+            </p>
+          
+          <p>
+              <span class="infoname">Time:</span>
+              <span class="today"></span>
+          </p> 
         </div>
-        </section>
-        <section class="item" id="news-release">
-          <h3>News Realease</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione, magnam perspiciatis incidunt necessitatibus vero similique optio. Dolor animi totam quidem veritatis minima ut dignissimos debitis dolorem quod. Veritatis, provident.</p></section>
-        <section class="item" id="spotlight">
-          <div class="spots" id="spot-1">
-            <h3>Thankful Transport</h3>
-            <p>We get it there for you!</p></div>
-        <div class="spots" id="spot-2"><p>Spotlight 2</p></div>
-      <div class="spots" id="spot-3"><p>Spotlight 3</p></div>
-        </section>
+      <div class="main-galery">
+          <picture>
+              <img src="discovergallery/place-holder.webp" alt="1" data-src="discovergallery/maranguapeinmap.png">
+              <p>The city where our chamber community is found in the Ceara state of Brazil, and it is called maranguape, this little city has a population of 131.677 citizens and it is staticaly big for it's size. </p>
+          </picture>
+
+          <picture>
+            <img src="discovergallery/place-holder.webp" alt="2" data-src="discovergallery/maranguapemap.jpg">
+            <p>This city is devided into nine districts being the Maranguape(sede) where our chamber is found and it is a point of big commerce and interest for all citizens.</p>
+          </picture>
+          <picture>
+            <img src="discovergallery/place-holder.webp" alt="3" data-src="discovergallery/maranguapeentry.jpg">
+            <p>The Maranguape entry has a popular design where people can take pictures and have leisure around. As we can see, the most popular religion in here is the catholic church that has a remarkable sculpture right in front of the city.</p>
+          </picture>
+          <picture>
+            <img src="discovergallery/place-holder.webp" alt="1" data-src="discovergallery/maranguapestreets.JPG">
+            <p>The streets of Maranguape are very popular because of it's ancienty design that was maintained throught decades and restored through time.</p>
+          </picture>
+          <picture>
+            <img src="discovergallery/place-holder.webp" alt="1" data-src="discovergallery/maranguapelibrary.jpg">
+            <p>Some of the most interesting points of the Maranguape town is the library where you can find a lot of information about the city and have a real experience in one of the places with greater harmony desing.</p>
+          </picture>
+        
     </div>
   </main>
   <script src="js/windchill.js"></script>
+  <script src="js/lazyload.js"></script>
     <footer>
     <div class="footer-1">
       <div class="footer-1-1">

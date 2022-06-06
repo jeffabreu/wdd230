@@ -60,4 +60,7 @@
 		#join {
 		grid-row : 4 / 5;
 		}
+		picture img:hover{
+			box-shadow: 0 0 50px #ffff00
+		}
 	}
