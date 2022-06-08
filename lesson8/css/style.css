@@ -1,0 +1,59 @@
+body {
+    font-family:  Ubuntu, sans-serif;
+}
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 30px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+	color: var(--back);
+	font-size: .85rem;
+}
+
+tr:first-child th {
+	background-color: rgb(105, 169, 207);
+	color: var(--forelight);
+    font-size: 30px;
+    padding: 1rem;
+    border-color: gray;
+}
+
+th, td {
+	padding: 7px 15px;
+	border: 1px solid gray;
+}
+
+th {
+    font-size: 20px;
+    padding: 1rem;
+    color: white;
+	background-color: rgb(117, 119, 190);
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--zebra);
+}
+
+.colorful {
+    color: white;
+    background-color:  rgb(117, 119, 190);
+}
+tbody tr:nth-child(even) {
+	background-color: rgb(214, 215, 238);
+}
+tbody tr{
+    background-color: rgb(205, 233, 235);
+}
+tfoot {
+    background-color: rgb(105, 169, 207);
+    font-size: 13px;
+}
