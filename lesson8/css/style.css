@@ -43,9 +43,9 @@ tbody tr:nth-child(even) {
 	background-color: var(--zebra);
 }
 
-.colorful {
-    color: white;
-    background-color:  rgb(117, 119, 190);
+td:hover{
+    background-color:rgb(117, 119, 190);
+    color: #ffffff;
 }
 tbody tr:nth-child(even) {
 	background-color: rgb(214, 215, 238);
