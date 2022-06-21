@@ -10,59 +10,59 @@
         },
         {
             "name": "Hapvida",
-            "id": "Av. Sen. Virgílio Távora, s/n - Pajuçara, Maracanaú - CE",
+            "id": "Av. Sen. Virgilio Tavora, s/n - Pajuçara, Maracanau - CE",
             "contact": "1-888-280-4331",
             "order": 2,
             "pageurl": "http://www.hapvida.com.br/",
             "logo":"https://logodownload.org/wp-content/uploads/2019/12/hapvida-logo-1.png"
         },
         {
-            "name": "Apple Technologies",
-            "id": "(800) MY–APPLE (800–692–7753)",
+            "name": "Unimed",
+            "id": "(85) 3453-7777",
             "contact": "1-800-676-2775",
             "order": 3,
-            "pageurl": "https://www.apple.com/",
-            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/apple-logo.jpg?v=1655401184336"
+            "pageurl": "https://www.unimed.coop.br/site/",
+            "logo":"https://logodownload.org/wp-content/uploads/2014/05/unimed-logo-1.png"
         },
         {
-            "name": "Amazon",
-            "id": "AZA5 – 6000 W Van Buren St, Phoenix, AZ 85043",
+            "name": "SUS",
+            "id": "Avenida D, 440 Segunda Etapa - Pref. José Walter, Fortaleza - CE",
             "contact": "1-888-280-4331",
             "order": 4,
-            "pageurl": "https://www.amazon.com/",
-            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/amazon-logo.jpg?v=1655401192847"
+            "pageurl": "https://conectesus-paciente.saude.gov.br/",
+            "logo":"https://logodownload.org/wp-content/uploads/2017/02/sus-logo-0-2048x2048.png"
         },
         {
-            "name": "Bloomberg",
+            "name": "LG",
             "id": "PHX3 – 6835 W.",
             "contact": "+1-212-318-2000",
             "order": 5,
-            "pageurl": "https://www.bloomberg.com/africa",
-            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/bloomberg.png?v=1655401180301"
+            "pageurl": "hhttps://www.lg.com/br",
+            "logo":"https://logodownload.org/wp-content/uploads/2014/04/lg-logotipo.png"
         },
         {
-            "name": "Samsung",
+            "name": "Magalu",
             "id": "PHX9 – 777 S 79th Ave, Tolleson, Arizona",
             "contact": "0860 726 7864",
             "order": 6,
-            "pageurl": "https://www.samsung.com/us/",
-            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/samsung.webp?v=1655401165784"
+            "pageurl": "https://www.magazineluiza.com.br/",
+            "logo":"https://logodownload.org/wp-content/uploads/2014/06/magalu-logo-0-2048x2048.png"
         },
         {
-            "name": "Nike",
+            "name": "Adidas",
             "id": "SAZ1 – 3333 S 7th St., Phoenix, AZ 85040-1182",
             "contact": "1-503-671-6453",
             "order": 7,
-            "pageurl": "https://www.nike.com/",
-            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/nike-logo.jpg?v=1655401172320"
+            "pageurl": "https://www.adidas.com/",
+            "logo":"https://i.pinimg.com/originals/f4/e8/39/f4e839614c73d2cb3e342fe2e7e19f05.png"
         },
         {
-            "name": "Trivago",
-            "id": "trivago N.V., Kesselstraße 5 – 7, 40221 Düsseldorf",
+            "name": "Indeed",
+            "id": " Kesselstraße 5 – 7, 40221 Düsseldorf",
             "contact": "1-503-671-6453",
             "order": 8,
-            "pageurl": "https://www.trivago.com/",
-            "logo":"https://cdn.glitch.global/91b64295-683f-41e6-b1b1-487ad9eee19e/trivago-logo_fb.webp?v=1655401146248"
+            "pageurl": "https://www.indeed.com/",
+            "logo":"https://logosmarcas.net/wp-content/uploads/2021/02/Indeed-Emblema.jpg"
         },
         {
             "name": "Zapp",
