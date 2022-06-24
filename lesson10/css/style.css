@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+
+  }
+body{
+    margin: auto;
+    max-width: 500px;
+    background-color: aqua;
+
+}
+section{
+    background-color: rgb(44, 0, 140);
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+h1,h2,figure, p {
+ color: aliceblue;
+}
