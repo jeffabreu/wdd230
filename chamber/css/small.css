@@ -106,7 +106,7 @@ a:hover {
 img {
     max-width : 100%;
     }
-picture {
+.direct picture {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +116,7 @@ picture {
 picture p{
     color: white;
 }
-picture img{
+.menu img{
     width: 400px;
         }
 .localstorage {
@@ -170,7 +170,7 @@ div .chatbutton {
     right : 310px;
     max-width : 150px;
     border-radius : 10px;
-    position : absolute;
+    position : fixed;
     text-align : center;
     padding : 10px;
     margin-bottom : 10px;
@@ -301,4 +301,22 @@ form label.top input:required {
     background-color: rgb(255, 246, 136);
     color: black;
     border-radius: 5px;
+}
+#centered p {
+    font-size: 50px;
+}
+
+#centered button {
+    padding: none;
+    margin : 1rem;
+    background : rgb(186, 11, 58);
+    border : none;
+    border-radius: 10px;
+    position: relative;
+    font-size : 2rem;
+    color : rgb(255, 246, 136);
+}
+#centered button:hover {
+    width: 80px;
+    height: auto;
 }
