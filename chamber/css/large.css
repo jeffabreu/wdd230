@@ -42,4 +42,10 @@
         .current-time{
         width: 400px;
         }
+        .main-galery img{
+            max-width: 500px;
+        }
+        .main-galery p{
+            display: flex;
+        }
     }
