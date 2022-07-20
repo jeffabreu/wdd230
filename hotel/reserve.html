@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Inn and Suites Website</title>
+    <meta name="description" content="fitcious website about hotel created to provide assistance and information to costumers">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="index.html"><img class="logo" src="images/logo-hotel.png" alt="logo image"></a>
+        <button id="hamburger"><span>☰</span><span>☒</span></button>
+        <ul id="mainnav">
+          <li><a class="menu" href="index.html">Menu</a></li>
+          <li><a href="temples.html">Temples</a></li>
+          <li><a href="reserve.html">Reserve</a></li>
+          <li><a href="contact.html">Contact us</a></li>  
+          <li><a href="aboutus.html">About us</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="sec-reservation">
+        <form method="get" action="thankyou.html" id="form-reservation">
+          <fieldset class="main-fieldss">
+            <legend>Make a reservation</legend>
+            <label class="lbl">Select Nearby Location*
+              <select id="destiantion" class="select-lbl" name="destiantion" required>
+                <option value="">--Select a Temple--</option>
+              </select> 
+            </label>
+            <label class="lbl">Check in*<input type="date" name="check-in" required> </label>
+            <label class="lbl">Check out*<input type="date" name="check-out" required> </label>
+            <label class="lbl">Room / guest*
+              <select class="select-lbl" name="room" required>
+                <option value="">--Select Room--</option>
+                <option value="1 Room 1 Guess">1 Room 2 Guess</option>
+                <option value="1 Room 2 Guess">1 Room 1 Guess</option>
+                <option value="1 Room 3 Guess">1 Room 3 Guess</option>
+                <option value="1 Room 4+ Guess">1 Room 4+ Guess</option>
+                <option value="2 Room 4 Guess">2 Room 4 Guess</option>
+                <option value="2 Room 4+ Guess">2 Room 4+ Guess</option>
+              </select></label>
+      
+  
+          </fieldset>
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label class="lbl">First Name* <input type="text" name="fname" required> </label>
+            <label class="lbl">Last Name* <input type="text" name="lname" required> </label>
+            <label class="lbl">Email* <input type="email" name="email" placeholder="someone@provider.com" required>
+            </label>
+            <label class="lbl">Phone* <input type="tel" name="phone" pattern="[0-9]{,}" placeholder="1235551234" required>
+            </label>
+            <!-- <label class="lbl">Business name* <input type="text" name="businessname" required> </label> -->
+  
+            <label><input type="text" name="datetime" id="datetime-loaded" hidden> </label>
+          </fieldset>
+          <fieldset>
+            <label class="lbl lbl-desc">Special accommodations and comments.
+              <textarea class="lbl lbl-desc" id="txt" name="Business Description" rows="5" cols="65"
+                maxlength="500"></textarea>
+            </label>
+          </fieldset>
+          <input type="submit" value="Book Now" class="button-reservation">
+  
+        </form>
+  
+  
+  
+      </section>
+
+</main>
+<footer>
+    <script src="js/script.js"></script>
+    <script src="js/directory.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <div class="footer-1">
+      <div class="footer-1-1">
+      <section class="hero-direction">
+      <h3>Tabatinga Hotel Inn And Suits</h3>
+      <p>#09 João Cirino Street, Maranguape</p>
+      <p>Brazil - Ceara</p>
+      <p><a href="https://goo.gl/maps/9BUc74z4DdC2majJA" target="_blank" class="location-link">🚩 Location Map</a></p>
+  </section>
+  <section class="others">
+    <h3>Others</h3>
+    <div class="others-content">
+    <ul>
+        <li>Locations</li>
+        <li>Brandings</li>
+        <li>Another Services</li>
+        <li>Members</li>
+    </ul>
+    <ul>
+        <li>Inspiration</li>
+        <li>About the Church of Jesus Christ</li>
+        <li>Team work</li>
+        <li>Apply for a job</li>
+    </ul>
+</div>
+  </section>
+  <div class="contact">
+    <h3>Contact us</h3>
+    <p>Email: tabatingahotel@mail.com</p>
+    <p>SAC: +55 085 986392482</p>
+  </div>
+</div>
+    <div class="footer-2">
+      <p><span id="lastyear">© 2022</span> Tabatinga Hotel Inn And Suits</p> 
+      <p><span id="lastmod">Last Modification: 05/07/2022 01:07:06</span></p>
+      <div class="social-media">
+        <a href="https://www.youtube.com/" target="_blank"><img src="images/facebookicon.png" alt="facebook icon" class="social-media"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="images/whatsappicon.png" alt="whatsapp icon" class="social-media"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagramicon.png" alt="instagram icon" class="social-media"></a>
+      </div>
+    </div>
+    </div>
+    </footer>
+</body>
+</html>

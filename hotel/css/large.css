@@ -1,0 +1,86 @@
+@media only screen and (min-width: 60em){    
+    nav ul li a {
+        padding : 1rem;
+        }
+        h1 {
+        font-size : 3rem;
+        }
+        h2 {
+        font-size : 2.5rem;
+        }
+        .main-grid {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        }
+        #event {
+        grid-area : event;
+        }
+        #hero-image {
+        grid-area : hero;
+        }
+        #spotlight {
+        grid-area : spot;
+        }
+        #weather {
+        grid-area : weather;
+        }
+        #join {
+        grid-area : join;
+        }
+        #news-release {
+        grid-area : news;
+        }
+        section#spotlight {
+        display : block;
+        }
+        section#spotlight .spots {
+        height : 12rem;
+        }
+        section#spotlight .spot3 {
+        display : block;
+        }
+        .current-time{
+        width: 400px;
+        }
+        .main-galery img{
+            max-width: 500px;
+        }
+        .main-galery p{
+            display: flex;
+        }
+        video {
+            width: 1200px;
+            height: auto;
+            align-self: center;
+            position: relative;
+        }
+       
+        .section2 {
+            grid-column: 2/3;
+            grid-row: 2/3;
+        }
+        main section.item {
+            width: 200px;
+            position: absolute;
+            top: 500px;
+            background-color: transparent;
+        }
+        #scrolldown {
+            position: absolute;
+            top: 800px;
+            display: block;
+            text-align: center;
+            width: 1200px;
+            height: 37px;
+        }
+        #scrolldown:hover {
+            background: linear-gradient(to bottom,rgba(0,0,0,0) 0,transparent 70%,rgba(9, 175, 193, 0.8) 100%);
+        }
+        #mainDiv {
+            
+            grid-template-columns: 1fr 1fr 1fr;
+            
+        }
+        
+    }

@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Temple Inn and Suites Website</title>
     <meta name="description" content="fitcious website about hotel created to provide assistance and information to costumers">
-    <link rel="stylesheet" href="small.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
 </head>
 <body>
+    <header>
     <nav>
-        <a href="index.html"><img class="logo" src="images/starchamberlogo.png" alt="logo image"></a>
+        <a href="index.html"><img class="logo" src="images/logo-hotel.png" alt="logo image"></a>
         <button id="hamburger"><span>☰</span><span>☒</span></button>
         <ul id="mainnav">
           <li><a class="menu" href="#">Menu</a></li>
@@ -20,11 +24,126 @@
           <li><a href="aboutus.html">About us</a></li>
         </ul>
     </nav>
+</header>
+<main>
     <div class="hero">
         <video autoplay width="320" height="240" autoplay="true" muted loop>
             <source src="video/tabatinga-temple-suits.mp4" type="video/mp4">
             <source src="video/tabatinga-temple-suits.webm" type="video/webm">
             </video>
+            <section class="item" id="weather">
+                <div id="centered">
+                  <img id="weather-icon" src="images/weather-icon.png" alt="weather icon">
+                  <p><span id="temp"></span> <span id="tempType"></span></p>
+                  <div>
+                    <button id="cf">°C/°F</button>
+                  </div>
+                </div>
+                <div id="weather-desc">
+                  weather-desc
+                  <!-- Partly Cloudy -->
+                </div>
+                <div id="weather-data">
+                  <div id="weather-data-speed">
+                    Wind Speed:  <span id="speed">22</span> mph
+                    
+                  </div>
+              </section>
+              <section id="scrolldown" class="scroll-downbutton">
+                <a href="#section02"><span></span>Scroll</a>
+              </section>
     </div>
+    <div class="main-grid">
+        <div class="section1">
+        <section id="section02">
+        <div class="content1">           
+           <h2>We want you to feel that this is your place</h2>
+           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum ab blanditiis nulla molestiae ut ex quos eveniet provident! Ab illum molestias perspiciatis quod esse a vero alias nisi, fugiat rem.</p>
+        </div>
+        </section>
+        </div>
+         <div class="rooms">
+            <picture>
+            <source media= "(max-width: 640px)" srcset="images/room.jpg">
+            <source media="(max-width: 1040px)" srcset="images/room-medium-view.jpg">
+            <img src="images/room-large-view.jpg" alt="assignment picture">
+          </picture>
+        </div>
+        
+        <div class="section2">
+        <section>
+        <div class="content2">
+           <h2>We provide a personalized assistance</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum praesentium rerum placeat. Earum architecto quos excepturi eligendi fugit facere beatae dolorem minima impedit sint eaque optio, distinctio consequuntur dicta tenetur.</p>
+        </div>
+        </section>
+        </div>
+        <div class="attending">
+            <picture>
+            <source media= "(max-width: 640px)" srcset="images/man-attending.jpg">
+            <source media="(max-width: 1040px)" srcset="images/man-attending-medium-view.jpg">
+            <img src="images/man-attending-large-view.jpg" alt="assignment picture">
+          </picture></div>
+          <div class="content3">
+            <h2>We provide a personalized assistance</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum praesentium rerum placeat. Earum architecto quos excepturi eligendi fugit facere beatae dolorem minima impedit sint eaque optio, distinctio consequuntur dicta tenetur.</p>
+         </div>
+         </section>
+         <div class="attending">
+            <picture>
+            <source media= "(max-width: 640px)" srcset="images/team-small.jpg">
+            <source media="(max-width: 1040px)" srcset="images/team-medium-view.jpg">
+            <img src="images/team-large-view.jpg" alt="assignment picture">
+          </picture>
+       </div>
+         </div>
+         
+       </div>
+</main>
+<footer>
+    <script> src="js/script.js"</script>
+    <script src="js/weatherapi.js"></script>
+    <div class="footer-1">
+      <div class="footer-1-1">
+      <section class="hero-direction">
+      <h3>Tabatinga Hotel Inn And Suits</h3>
+      <p>#09 João Cirino Street, Maranguape</p>
+      <p>Brazil - Ceara</p>
+      <p><a href="https://goo.gl/maps/9BUc74z4DdC2majJA" target="_blank" class="location-link">🚩 Location Map</a></p>
+  </section>
+  <section class="others">
+    <h3>Others</h3>
+    <div class="others-content">
+    <ul>
+        <li>Locations</li>
+        <li>Brandings</li>
+        <li>Another Services</li>
+        <li>Members</li>
+    </ul>
+    <ul>
+        <li>Inspiration</li>
+        <li>About the Church of Jesus Christ</li>
+        <li>Team work</li>
+        <li>Apply for a job</li>
+    </ul>
+</div>
+  </section>
+  <div class="contact">
+    <h3>Contact us</h3>
+    <p>Email: tabatingahotel@mail.com</p>
+    <p>SAC: +55 085 986392482</p>
+  </div>
+</div>
+    <div class="footer-2">
+      <p><span id="lastyear">© 2022</span> Tabatinga Hotel Inn And Suits</p> 
+      <p><span id="lastmod">Last Modification: 05/07/2022 01:07:06</span></p>
+      <div class="social-media">
+        <a href="https://www.youtube.com/" target="_blank"><img src="images/facebookicon.png" alt="facebook icon" class="social-media"></a>
+        <a href="https://www.facebook.com/" target="_blank"><img src="images/whatsappicon.png" alt="whatsapp icon" class="social-media"></a>
+        <a href="https://www.instagram.com/" target="_blank"><img src="images/Instagramicon.png" alt="instagram icon" class="social-media"></a>
+      </div>
+    </div>
+    </div>
+    </footer>
 </body>
 </html>
