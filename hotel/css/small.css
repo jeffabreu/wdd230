@@ -209,10 +209,10 @@ main section.item {
     font-weight: 600;
 }
 #form-reservation label.lbl input:required {
-    border-left: solid 6px red;  
+    border-left: solid 6px rgb(1, 0, 69);  
 }
 #form-reservation label.lbl input:required:valid{
-    border-left: solid 6px green;  
+    border-left: solid 6px rgb(0, 100, 128);  
 }
 #form-reservation label.lbl-desc input{
     padding: 3rem;
@@ -288,7 +288,7 @@ main section.item {
 #mainDiv {
     display: grid;
     grid-gap: 1rem;
-    background-color: rgb(163, 163, 163);
+    
 }
 #mainDiv img{
     max-width: 350px;
