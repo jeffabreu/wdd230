@@ -39,7 +39,7 @@ main {
     }
 nav button {
     margin : 1rem;
-    background : rgb(255, 246, 136);
+    background : rgb(2, 10, 101);
     border : none;
     position: relative;
     font-size : 2rem;
@@ -332,6 +332,27 @@ main section.item {
 }
 .reservation-button p{
     flex-direction: right;
+}
+.nav-services ul{
+    text-decoration: none;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(108, 198, 228);
+    color: rgb(20, 7, 104);
+    list-style-type: none;
+    justify-content: center;
+    
+}
+.nav-services li a{
+    flex: 1 1 auto;
+    gap: 1rem;
+    text-decoration: none;
+    position: sticky;
+    align-items: center;
+    display: block;
+    
 }
 
 
