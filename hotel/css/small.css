@@ -1,5 +1,5 @@
 body {
-    font-family : "koulen", sans-serif;
+    font-family: 'Martel', serif;
     font-size : 16px;
     line-height : 1.5;
     }
@@ -9,6 +9,7 @@ header, main, footer {
     text-align: center;
     }
 h1 {
+    font-family: 'Russo One', sans-serif;
     padding : 1rem;
     font-size : 1.5rem;
     color : black;
@@ -516,7 +517,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     width: 100%;
 }
 
-
+hr{
+    margin: 1rem;
+}
 
 
 
