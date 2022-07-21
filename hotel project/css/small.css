@@ -106,7 +106,7 @@ section p, img {
 }
 .yellow {
     display: block;
-    background-color: rgb(255, 246, 136);
+    background-color: rgb(26, 3, 118);
     color: rgb(67, 66, 66);
     font-size: 20px;
 }
@@ -120,4 +120,7 @@ section p, img {
 }
 .paragraph {
     font-family: 'Libre Bodoni', serif;
+}
+section img  {
+    background-color: gray;
 }

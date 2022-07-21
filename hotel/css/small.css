@@ -137,7 +137,7 @@ footer {
 }
 main section.item {
     border-radius : 5px;
-    background-color :rgb(255, 246, 136);
+    background-color :rgb(19, 141, 222);
     color : rgb(20, 7, 104);
     margin : 0.5rem;
     padding : 0;
@@ -307,7 +307,32 @@ main section.item {
     background-color: rgb(20, 7, 104);
     color: rgb(108, 198, 228);
 }
-
+.reservation-button img{
+    max-width: 300px;
+    max-height: 400px;
+}
+.reservation-button {
+    background-color: rgb(185, 232, 248);
+    padding: 1rem;
+    display: block;
+    align-content: center;
+}
+.reservation-button a{
+    padding: 0.5rem;
+    max-width: 200px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: rgb(108, 198, 228);
+    color: rgb(20, 7, 104);
+}
+.reservation-button a:hover{
+    transition: 0.5s;
+    background-color: rgb(20, 7, 104);
+    color: rgb(108, 198, 228);
+}
+.reservation-button p{
+    flex-direction: right;
+}
 
 
 
